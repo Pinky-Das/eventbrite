@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --logo:#f05537;
+    --search: #c7cfb7;
+    --hr: #eaffd0;
+    --h2: grey;
+    --upload:#314e52;
+    --heart:#ec4646;
+    --likes:#222831;
+}
+
+#header {
+    position: relative;
+    
+}
+.top {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    
+    
+}
+h1{
+    margin: 2rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color:var(--logo);
+    cursor: pointer;
+}
+.fa-search{
+    margin: 0 -14rem 0 5rem;
+    z-index: 1;    
+    color: var(--search);
+}
+.input {
+    margin-left: 12rem;
+    padding: 3rem;
+    border-style: none;
+    outline: none;
+    font-size: 1.7rem;
+        
+}
+.input::placeholder{
+    color: var(--search); 
+}
+
+.top-right {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    
+}
+
+h2{
+    font-size: 1.8rem;
+    padding: 3rem;
+    font-weight: 100;
+    color: var(--h2);
+    cursor: pointer;
+}
+.fas {
+    color: var(--search);
+}
+
+.login{
+    width: 3.5rem;
+    border-radius: 5rem;
+    margin: 0 -2rem 0 2rem;
+}
+
+hr {
+    border-style: solid none none;
+    position: absolute;
+    color: var(--hr); 
+    border-width: .2rem;
+    width: 100%;
+    top: 8rem;
+    
+}
+#body{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+}
+.heading {
+    position: absolute;
+    top: 12rem;
+    margin-left: 10rem;
+    font-size: 5rem;
+    
+    
+}
+h3{
+    color: var(--likes);
+    font-weight: 800;
+    
+    
+}
+
+#middle {
+    position: absolute;
+    top: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.one {
+    width: 30rem;
+    border-radius: .5rem;
+}
+
+.content_one {
+    margin-left: 2rem;
+    line-height: 3rem;
+    letter-spacing: .1rem;
+}
+h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--upload);
+}
+p{
+    font-size: 1.5rem;
+    color: var(--h2);
+}
+.i{
+    margin: 12rem;
+    font-size: 2rem;
+    
+}
+.fa-upload {
+    padding-right: 5rem;
+    color: var(--upload);
+}
+.fa-heart {
+    color: var(--heart);
+}
+
+#middle_two{
+    position: absolute;
+    top: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+#middle_three {
+    position: absolute;
+    top: 75rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+
+
